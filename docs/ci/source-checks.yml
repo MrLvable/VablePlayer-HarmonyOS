@@ -1,0 +1,29 @@
+name: Source checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  contracts-and-publication:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+      - name: Check publication files and history
+        run: python3 scripts/check_publication.py --git-history
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Restore hash-pinned upstream dependencies
+        run: python3 scripts/bootstrap_deps.py
+      - run: python3 scripts/prepare_test_types.py
+      - name: Run offline contracts
+        env:
+          MPV_LIB_TYPES: .cache/mpv/MpvLib.d.ets
+        run: npm test

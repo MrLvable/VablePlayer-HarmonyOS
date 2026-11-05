@@ -1,0 +1,14 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "NAS 影库入口模块",
+  "main": "",
+  "author": "",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@mpv-ohos/mpv-arkts": "file:../vendor/mpv-arkts-1.0.0.har",
+    "libai_audio_extractor.so": "file:./src/main/cpp/aisubtitle/types/libai_audio_extractor",
+    "libnas_smb.so": "file:./src/main/cpp/smb/types/libnas_smb",
+    "libnas_local.so": "file:./src/main/cpp/localfiles/types/libnas_local"
+  }
+}

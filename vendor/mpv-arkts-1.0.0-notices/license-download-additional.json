@@ -1,0 +1,26 @@
+{
+  "libplacebo-7.360.1-LICENSE.txt": {
+    "url": "https://code.videolan.org/videolan/libplacebo/-/raw/v7.360.1/LICENSE",
+    "bytes": 24478,
+    "sha256": "b3aa400aca6d2ba1f0bd03bd98d03d1fe7489a3bbb26969d72016360af8a5c9d"
+  },
+  "lua-5.2.4-lua.h": {
+    "url": "https://raw.githubusercontent.com/lua/lua/v5.2.4/lua.h",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "simdjson-4.6.1-Apache-2.0.txt": {
+    "url": "https://raw.githubusercontent.com/simdjson/simdjson/v4.6.1/LICENSE",
+    "bytes": 11355,
+    "sha256": "5fa8894e890bd77958f93b165433e0fb0dffa5bc982bfb147e4748e95bad24e5"
+  },
+  "llvm-libcxx-upstream-LICENSE.txt": {
+    "url": "https://raw.githubusercontent.com/llvm/llvm-project/llvmorg-18.1.8/libcxx/LICENSE.TXT",
+    "bytes": 16703,
+    "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+  },
+  "wrapper-current-commit.json": {
+    "url": "https://api.github.com/repos/mpv-ohos/mpv-arkts/commits/main",
+    "bytes": 4229,
+    "sha256": "94d5d185b1e665845f186be418b0f3d268d61cca71a0baa826a9fc51a78a8e16"
+  }
+}

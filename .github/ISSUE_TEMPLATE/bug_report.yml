@@ -1,0 +1,53 @@
+name: 问题反馈 / Bug report
+description: 报告可复现的界面、连接、播放或字幕问题
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请勿上传真实服务地址、账号、密码、Token、签名链接或 API Key。安全漏洞按 SECURITY.md 私下报告。
+        请优先使用原创短片和隔离服务提供最小复现。
+  - type: input
+    id: revision
+    attributes:
+      label: 源码提交 / 构建版本
+      placeholder: commit SHA 或自行构建的版本标识
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: 设备与系统版本
+      description: 型号、HarmonyOS 版本；不需要序列号或设备 ID
+    validations:
+      required: true
+  - type: input
+    id: provider
+    attributes:
+      label: 来源类型、服务版本与播放内核
+      description: 例如 Jellyfin + 服务版本 + MPV；不填写具体地址和账号
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤与实际结果
+      description: 描述从哪个页面开始、点击什么、看到什么，以及是否稳定出现
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 已脱敏的最小证据（可选）
+      description: 可提供错误码、容器/编码信息、原创样本或已审查截图；不要上传原始运行数据
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私检查
+      options:
+        - label: 我已检查文字及附件，不包含个人服务地址、凭据、密钥、通知或私有媒体。
+          required: true

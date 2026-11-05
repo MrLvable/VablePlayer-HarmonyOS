@@ -1,0 +1,7 @@
+FFmpeg n8.0 public headers, upstream mirror tag commit 140fd653aed8cad774f991ba083e2d01e86420c7.
+Source: https://github.com/FFmpeg/FFmpeg/tree/n8.0
+Archive SHA-256: 775db720f4821967c360b7cecb277540a9eb8d72a9af1cd7c1d2849c4c8c881c
+codec_id.h adds AV_CODEC_ID_AVS3DA per the installed libmpv build support-av3a-audio-vivid.patch.
+Other retained FFmpeg build patches do not change these public structure layouts.
+Generated avconfig.h is explicitly for little-endian OHOS aarch64.
+Runtime exact versions required: avformat62.3.100, avcodec62.11.100, avutil60.8.100, swresample6.1.100.

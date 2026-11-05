@@ -1,0 +1,8 @@
+VablePlayer · HarmonyOS
+Copyright 2026 VablePlayer contributors
+
+This repository publishes the application's source code under Apache-2.0.
+Third-party code, headers and source archives retain their original notices and
+licenses. See THIRD_PARTY_NOTICES.md and vendor/ for component-specific terms.
+Prebuilt native dependencies and signed application packages are not distributed
+as part of this repository.

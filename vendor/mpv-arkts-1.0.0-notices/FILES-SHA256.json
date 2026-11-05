@@ -1,0 +1,352 @@
+[
+  {
+    "path": "CHECKSUMS.sha256",
+    "bytes": 453,
+    "sha256": "482135aa737054a045e651f3402370fbe56b19bc7af212105ee0dc143286435e"
+  },
+  {
+    "path": "CHECKSUMS.sha512",
+    "bytes": 773,
+    "sha256": "7fc716122b777822b1afe86bd0bae324e8756e25a6b427f009df3df493308566"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/.github/workflows/build.yaml",
+    "bytes": 1623,
+    "sha256": "31bfa1f3437d5bbb5142563c92e4d406d6cfb3fd64c7d946f428a6ea7dcf141a"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/build.sh",
+    "bytes": 477,
+    "sha256": "7089b18039e8ec9c1b4f3f18e08dc39a110b6e50e9d7b4ee621a374b6e6975cb"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/bundle.sh",
+    "bytes": 116,
+    "sha256": "b655be1b4f28fdfeadfc140caab98ac3d2902101454f83243e45a3eb2c8f7e45"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/crossfiles/arm64-crossfile-linux.ini",
+    "bytes": 899,
+    "sha256": "b06896e2d110503ee04dd5523d6bbfb6e8cd96600ece26fdfb500a544aa568f3"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/crossfiles/arm64-crossfile-macos.ini",
+    "bytes": 1331,
+    "sha256": "d289aee1301b2342c03e9f2d51bc67d16d880505801fbe8bd067881f80f038c6"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/download/deps-version.sh",
+    "bytes": 387,
+    "sha256": "424a74d1562f5600bd18e647fd6e1ac5c156f0c3aee80c0c355cc85a3b089ff8"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/download/download-deps.sh",
+    "bytes": 4060,
+    "sha256": "ff3fc26f1efbda6381d42c544684af8d708f65e0ee5b3fd95b4e48721aed95b4"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/download/download-ohos-rs.sh",
+    "bytes": 272,
+    "sha256": "9f54b1b8699b92df6aaf89f0616f30a151e59898a842bb32de281f17347cc06f"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/download/download-sdk.sh",
+    "bytes": 357,
+    "sha256": "3d8a1a94e5589750fc4dcd3b2fd9a9f9abed9f00e3c7fce793a0989300c3e903"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/download.sh",
+    "bytes": 588,
+    "sha256": "79d65c4750c8ee0e7d5c99e0073f1c0bd9b5bf0f158e891582049b2175f79d26"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/env.sh",
+    "bytes": 1340,
+    "sha256": "8ab2cfd1c100361d1add46caa51d0c35b20669a560fe840f398b51bcbc1b23b7"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/LICENSE",
+    "bytes": 1063,
+    "sha256": "8a12fb02a9ac435099cc37a5a97a08a684b0a84e554f134c73e72d0c32575c2c"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/patch.sh",
+    "bytes": 350,
+    "sha256": "37838f859dd2d0e26d38eb31badf78cbf6a358c4671d801fe28cf1ad80cfbdf7"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/patches/ffmpeg/support-av3a-audio-vivid.patch",
+    "bytes": 69869,
+    "sha256": "79e970caeaf121c0c866265f70aae92f3a4328724fe061c0a8c4e76e2935f23b"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/patches/ffmpeg/support-zero-copy-hardware-decode.patch",
+    "bytes": 27414,
+    "sha256": "c15790cf227aaaa4727fe28f85f4d1e403a1d8f9485aea78e328efe552ef6720"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/patches/libplacebo/remove-unnecessary-atomic-test.patch",
+    "bytes": 298,
+    "sha256": "8081754fc65641696871f0b7f7cf887380919b54e443e639ac88f2ec10d4a8be"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/patches/libplacebo/support-external-yuv-zero-copy.patch",
+    "bytes": 10996,
+    "sha256": "6aab3a5cd3253f992876eb11c20b05125e28e0b80e81603d2401ba8bc6e6ad30"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/README.md",
+    "bytes": 454,
+    "sha256": "9017328a00334b52087d01a1ddb26970e6c8c30a5b95ae15d4a0172a27fe5445"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/dav1d.sh",
+    "bytes": 459,
+    "sha256": "b4b98e64667864dba1b69a51bad969657ba42ec2ad08e09b2d628933bb338442"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/dovi_tools.sh",
+    "bytes": 404,
+    "sha256": "167b98a46e3790341e3f8580f864f23ca68692221ebc54178ad3b73d411a1387"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/ffmpeg.sh",
+    "bytes": 842,
+    "sha256": "7b79a3f54825998ce95cdb0c4a4c753f91e3ab2a9c2ec67057e4d9bbdd8df255"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/fontconfig.sh",
+    "bytes": 534,
+    "sha256": "099ae28295f57679210ee4e40d58e0b8acd71fdcffefca48371e375d2b28aeb9"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/freetype.sh",
+    "bytes": 398,
+    "sha256": "20a59895b003fd15944ce40a172d09b036fc6b620ca9009a39d7f5fbd430e286"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/fribidi.sh",
+    "bytes": 431,
+    "sha256": "79a4aeff85d8b686729459d956a717619e64581d13c6e16645bdb9445471d48d"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/harfbuzz.sh",
+    "bytes": 439,
+    "sha256": "987866780353618d9b6cfc935d82b979315e37b1fb94213e0441fd001108de36"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/lcms.sh",
+    "bytes": 411,
+    "sha256": "03834e7c3e7c78822a1c983fdcd6a261f805c3be837287b0b5098f97d23b2144"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/libass.sh",
+    "bytes": 505,
+    "sha256": "b814bb420013eeee07928b7d263c8a1b35df68d8d5bca893d19ba7933858b26f"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/libplacebo.sh",
+    "bytes": 522,
+    "sha256": "166572e940f9b054dd04349e19fa04d3a70292c99a21df74e29cd414e4f6e936"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/libxml2.sh",
+    "bytes": 454,
+    "sha256": "730844ea87f99594844420f842639bb696c96da40a3b4fd13767b32780775474"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/lua.sh",
+    "bytes": 699,
+    "sha256": "27c61efe212812c2d7b666ee0303117a675381dd487287d7db206f7a7f9467ef"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/mbedtls.sh",
+    "bytes": 393,
+    "sha256": "32d125c1979b40e5028fa02fec1a23f7e8116336c42a3a1f9dd831efdbcd00bb"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/mpv.sh",
+    "bytes": 695,
+    "sha256": "d875ac327337b49c3069bdd090faa76aea118f218b8b951099eaaca4a6902a1c"
+  },
+  {
+    "path": "libmpv-ohos-build-20260715/scripts/shaderc.sh",
+    "bytes": 791,
+    "sha256": "4bd765b9ff6dbde084a525d786e3995ddd1797987da1cf1c84adc47c6d890ffe"
+  },
+  {
+    "path": "license-download-additional.json",
+    "bytes": 1077,
+    "sha256": "adb3336aa0036905170fb26c718a116ed284891ac54adeb12177177fd7513ea9"
+  },
+  {
+    "path": "license-download-provenance.json",
+    "bytes": 2864,
+    "sha256": "48fe283e340e1537411015cc6592d910204726f9fa2293ca55b4d3ac0ff0ff03"
+  },
+  {
+    "path": "licenses/aki-bundled-Apache-2.0.txt",
+    "bytes": 13566,
+    "sha256": "bee6345c86f93b1b95319507b237439c56f0a95b2b1b1465a4243507b9bd0c70"
+  },
+  {
+    "path": "licenses/aki-bundled-NOTICE.txt",
+    "bytes": 11162,
+    "sha256": "522a425edc1b77ad2bfa9c108a80f6ff632ae5ed55d22356ae5115caf97be057"
+  },
+  {
+    "path": "licenses/dav1d-1.5.1-BSD.txt",
+    "bytes": 1317,
+    "sha256": "b327887de263238deaa80c34cdd2ff3e0ba1d35db585ce14a37ce3e74ee389e9"
+  },
+  {
+    "path": "licenses/dovi-2.3.1-LICENSE.txt",
+    "bytes": 1066,
+    "sha256": "f35d4515dd8d81c7996af2b20e9605561d1af0c21bc12ba7cc4fa4c60aed2178"
+  },
+  {
+    "path": "licenses/ffmpeg-n8.0-LGPL-2.1.txt",
+    "bytes": 26517,
+    "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+  },
+  {
+    "path": "licenses/ffmpeg-n8.0-LGPL-3.0.txt",
+    "bytes": 7651,
+    "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768"
+  },
+  {
+    "path": "licenses/ffmpeg-n8.0-LICENSE.md",
+    "bytes": 4346,
+    "sha256": "2e1d16c72fd74e12063776371da757322f8b77589386532f4fd8634bde7de1af"
+  },
+  {
+    "path": "licenses/fontconfig-2.17.1-COPYING.txt",
+    "bytes": 8616,
+    "sha256": "51a51aa9823704fd90bccc616cdd17ebabb5b2b3e9cbde886ca02c7002288067"
+  },
+  {
+    "path": "licenses/freetype-2.13.3-FTL.txt",
+    "bytes": 6743,
+    "sha256": "08c135755dd589039470f1fdbb400daaabaaa50d0b366d19cebff4d22986baa1"
+  },
+  {
+    "path": "licenses/fribidi-1.0.16-COPYING.txt",
+    "bytes": 26440,
+    "sha256": "32434afcc8666ba060e111d715bfdb6c2d5dd8a35fa4d3ab8ad67d8f850d2f2b"
+  },
+  {
+    "path": "licenses/GPL-3.0.txt",
+    "bytes": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  {
+    "path": "licenses/harfbuzz-11.4.5-COPYING.txt",
+    "bytes": 1971,
+    "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+  },
+  {
+    "path": "licenses/lcms-2.17-LICENSE.txt",
+    "bytes": 1080,
+    "sha256": "6dbd60437f8ef91d8de1f08ad75882547fd4931bfcc3566a0735f28db1484d31"
+  },
+  {
+    "path": "licenses/libass-0.17.4-ISC.txt",
+    "bytes": 755,
+    "sha256": "f7e30699d02798351e7f839e3d3bfeb29ce65e44efa7735c225464c4fd7dfe9c"
+  },
+  {
+    "path": "licenses/libplacebo-7.360.1-LICENSE.txt",
+    "bytes": 24478,
+    "sha256": "b3aa400aca6d2ba1f0bd03bd98d03d1fe7489a3bbb26969d72016360af8a5c9d"
+  },
+  {
+    "path": "licenses/libxml2-2.15.1-COPYING.txt",
+    "bytes": 1314,
+    "sha256": "5d4873884a890122a4b9b20ad56ac6f7da1d796a5bfcf04a427970ac96217626"
+  },
+  {
+    "path": "licenses/llvm-libcxx-upstream-LICENSE.txt",
+    "bytes": 16703,
+    "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b"
+  },
+  {
+    "path": "licenses/lua-5.2-license-extract.txt",
+    "bytes": 1236,
+    "sha256": "f9fd85e0f654efcd6f2449b907fc59db7b15d04d4cc0bd991b05aaace2bbc13b"
+  },
+  {
+    "path": "licenses/lua-5.2-readme.html",
+    "bytes": 13180,
+    "sha256": "cb5b66f9bbd24ce57432c426a928da6dd4ccc22b19e812f26097b261134dc894"
+  },
+  {
+    "path": "licenses/mbedtls-3.6.4-Apache-2.0.txt",
+    "bytes": 29852,
+    "sha256": "9b405ef4c89342f5eae1dd828882f931747f71001cfba7d114801039b52ad09b"
+  },
+  {
+    "path": "licenses/mpv-0.41-Copyright.txt",
+    "bytes": 4096,
+    "sha256": "bfe9ee4cceabcb8ecbfadf208d04156f73d801e6a57369a5606bb8341e204a23"
+  },
+  {
+    "path": "licenses/mpv-0.41-LGPL-2.1.txt",
+    "bytes": 26410,
+    "sha256": "72b672113d642cbb8ef5dcc76938db801983c56e50b1400ab930f1a64d6dc8d9"
+  },
+  {
+    "path": "licenses/mpv-arkts-1.0.0-MIT.txt",
+    "bytes": 1095,
+    "sha256": "a01d4f8a4676b3758261d44007d10abe950431cad6d16ff570dfd43c36521a99"
+  },
+  {
+    "path": "licenses/mpv-arkts-current-source-MIT.txt",
+    "bytes": 1095,
+    "sha256": "a01d4f8a4676b3758261d44007d10abe950431cad6d16ff570dfd43c36521a99"
+  },
+  {
+    "path": "licenses/shaderc-2025.4-LICENSE.txt",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "path": "licenses/simdjson-4.6.1-Apache-2.0.txt",
+    "bytes": 11355,
+    "sha256": "5fa8894e890bd77958f93b165433e0fb0dffa5bc982bfb147e4748e95bad24e5"
+  },
+  {
+    "path": "licenses/simdjson-upstream-Apache-2.0.txt",
+    "bytes": 11355,
+    "sha256": "5fa8894e890bd77958f93b165433e0fb0dffa5bc982bfb147e4748e95bad24e5"
+  },
+  {
+    "path": "ohpm-package-metadata.json",
+    "bytes": 1662,
+    "sha256": "6f50505660ef20b750fc767477edf118b64c4f465e1f805f3c2f43055d3d94f1"
+  },
+  {
+    "path": "PROVENANCE.json",
+    "bytes": 1765,
+    "sha256": "4e5c1595d39a0b1a411d399cbf66f9960046a7438f4c9cb1f6ae5f960296fa5a"
+  },
+  {
+    "path": "SOURCE_INVENTORY.md",
+    "bytes": 4413,
+    "sha256": "edb4c029d32299888e40eb185230f0faf1b09bda1b723f4a41079b5dee93cad1"
+  },
+  {
+    "path": "THIRD_PARTY_NOTICES.md",
+    "bytes": 3138,
+    "sha256": "94911e1e02e99bb07b1efe1f79cf5e3903e0d875cc4028da01a327677730ff80"
+  },
+  {
+    "path": "wrapper-source-build/CMakeLists.txt",
+    "bytes": 3278,
+    "sha256": "9edff4713ec165c92547fe53a4c1b28c592a0817631d1d7bb217c8789b026285"
+  },
+  {
+    "path": "wrapper-source-build/LICENSE",
+    "bytes": 1095,
+    "sha256": "a01d4f8a4676b3758261d44007d10abe950431cad6d16ff570dfd43c36521a99"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "string": [
+    { "name": "module_desc", "value": "VablePlayer" },
+    { "name": "EntryAbility_desc", "value": "连接飞牛/Jellyfin/Emby 的影视客户端" },
+    { "name": "EntryAbility_label", "value": "VablePlayer"    },
+    {
+      "name": "EntryFormAbility_label",
+      "value": "VablePlayer"
+    },
+    {
+      "name": "EntryFormAbility_desc",
+      "value": "继续播放桌面卡片"
+    }
+  ]
+}

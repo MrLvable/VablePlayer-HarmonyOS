@@ -1,0 +1,9 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/PlayerPage",
+    "pages/AiSubtitlePage",
+    "pages/CapabilityProbe",
+    "widget/pages/WidgetCard"
+  ]
+}

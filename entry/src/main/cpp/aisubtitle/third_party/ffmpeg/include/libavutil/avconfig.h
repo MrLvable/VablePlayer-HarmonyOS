@@ -1,0 +1,6 @@
+/* Target public-header configuration: OHOS arm64, matching installed mpv. */
+#ifndef AVUTIL_AVCONFIG_H
+#define AVUTIL_AVCONFIG_H
+#define AV_HAVE_BIGENDIAN 0
+#define AV_HAVE_FAST_UNALIGNED 1
+#endif

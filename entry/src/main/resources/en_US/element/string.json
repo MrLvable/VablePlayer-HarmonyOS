@@ -1,0 +1,7 @@
+{
+  "string": [
+    { "name": "module_desc", "value": "VablePlayer" },
+    { "name": "EntryAbility_desc", "value": "Client for fnOS / Jellyfin / Emby" },
+    { "name": "EntryAbility_label", "value": "VablePlayer" }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "vableplayer-harmonyos-source-checks",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline source-contract checks, not an alternative HarmonyOS build system",
+  "scripts": { "test": "node scripts/run_checks.cjs" },
+  "devDependencies": { "typescript": "4.9.5" },
+  "license": "Apache-2.0"
+}

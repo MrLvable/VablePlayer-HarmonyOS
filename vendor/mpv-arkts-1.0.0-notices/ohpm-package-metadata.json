@@ -1,0 +1,58 @@
+{
+  "name": "@mpv-ohos/mpv-arkts",
+  "version": "1.0.0",
+  "description": "A mpv player for HarmonyOS, based on ArkTS",
+  "author": {
+    "name": "ErBW_s",
+    "email": "erbws@qq.com"
+  },
+  "license": "MIT",
+  "compatibleSdkType": "HarmonyOS",
+  "compatibleSdkVersion": "20",
+  "homepage": "https://github.com/mpv-ohos/mpv-arkts",
+  "repository": "https://github.com/mpv-ohos/mpv-arkts",
+  "keywords": [
+    "mpv",
+    "player"
+  ],
+  "types": "Index.d.ets",
+  "artifactType": "obfuscation",
+  "metadata": {
+    "byteCodeHar": true,
+    "sourceRoots": [
+      "./src/main"
+    ],
+    "debug": false,
+    "dependencyPkgVersion": {},
+    "declarationEntry": [],
+    "nativeDebugSymbol": true,
+    "useNormalizedOHMUrl": true
+  },
+  "obfuscated": false,
+  "nativeComponents": [
+    {
+      "name": "libaki_jsbind.so",
+      "compatibleSdkVersion": 20,
+      "compatibleSdkType": "HarmonyOS",
+      "linkLibraries": []
+    },
+    {
+      "name": "libmpv_wrapper.so",
+      "compatibleSdkVersion": 20,
+      "compatibleSdkType": "HarmonyOS",
+      "linkLibraries": []
+    }
+  ],
+  "harCache": "/home/runner/.ohpm/cache/harball/8bf353dec0b74013976e7162e64b08e3/",
+  "harFileName": "mpv.har",
+  "harPath": "mpv/build/default/outputs/default/mpv.har",
+  "_nodeVersion": "18.20.1",
+  "_ohpmVersion": "6.1.2.268",
+  "size": 16801367,
+  "fileNum": 28,
+  "_id": "@mpv-ohos/mpv-arkts@1.0.0",
+  "dist": {
+    "integrity": "sha512-hNL2irZmNMB1OeSpfVCdqE1wbpTUtQ7jcC/ALcvXJtYAAyyDKVNlt7N25mPwvK98wSti5KzO4CVEaU7hKgemQg==",
+    "tarball": "https://ohpm.openharmony.cn/ohpm/@mpv-ohos/mpv-arkts/-/mpv-arkts-1.0.0.har"
+  }
+}

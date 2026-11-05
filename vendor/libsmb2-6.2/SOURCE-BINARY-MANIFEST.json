@@ -1,0 +1,72 @@
+[
+  {
+    "file": "arm64-v8a/libsmb2.so",
+    "bytes": 266800,
+    "sha256": "02b042413c0dd13c724046068b714e31d9cf60463c157b4b0a0745bdac68e212"
+  },
+  {
+    "file": "build/build-native.sh",
+    "bytes": 1193,
+    "sha256": "73224d8535c405902a952fb29245ff3cda3453cc932b8a6411d514d154d74c50"
+  },
+  {
+    "file": "build/HPKBUILD",
+    "bytes": 1691,
+    "sha256": "feb03ab145b43622c5bb9294bd82470c1e4ed787960932104d457756f505a3df"
+  },
+  {
+    "file": "build/patch-soname.py",
+    "bytes": 3753,
+    "sha256": "a714597f0f67f7dce92dd3c83c159888e093defef595b3922f1cf0b739136467"
+  },
+  {
+    "file": "COPYING",
+    "bytes": 895,
+    "sha256": "749c710c2b3d5c95906c785f28af9abbe4ce909311e72eb72eee5c6873e2fa6f"
+  },
+  {
+    "file": "include/smb2/libsmb2-dcerpc-lsa.h",
+    "bytes": 6023,
+    "sha256": "766dcf4239274377a3b8b11c29566dd01bc0a4bd247c6d8abd34e59b24cda99c"
+  },
+  {
+    "file": "include/smb2/libsmb2-dcerpc-srvsvc.h",
+    "bytes": 5843,
+    "sha256": "361c11e9b31bdca58fed4d49a6019452eea71816f617911f032bd88f1798c0e0"
+  },
+  {
+    "file": "include/smb2/libsmb2-dcerpc.h",
+    "bytes": 6211,
+    "sha256": "5a814f518cd95245d32e16ab395221763daa78078f64384126127d62e74c3a61"
+  },
+  {
+    "file": "include/smb2/libsmb2-raw.h",
+    "bytes": 19684,
+    "sha256": "01ce8421d810f022f7289a7a7f748af23fabbdba72b2403f122d4fa579f8f38b"
+  },
+  {
+    "file": "include/smb2/libsmb2.h",
+    "bytes": 42959,
+    "sha256": "a78de5c4cff3d60238238d87944d62b3e9c76879754f5104a3c0a2dc0f7c9eaa"
+  },
+  {
+    "file": "include/smb2/smb2-errors.h",
+    "bytes": 35463,
+    "sha256": "d4eda851ce1a930ca824a4ea84aee4c46c78db456c201a875d4e4b059906a7df"
+  },
+  {
+    "file": "include/smb2/smb2.h",
+    "bytes": 38695,
+    "sha256": "052118241898db34027ed1397cf02499b574171eb90bee7096f060040d046d6d"
+  },
+  {
+    "file": "LICENCE-LGPL-2.1.txt",
+    "bytes": 26530,
+    "sha256": "dc626520dcd53a22f727af3ee42c770e56c97a64fe3adb063799d8ab032fe551"
+  },
+  {
+    "file": "sources/libsmb2-6.2.tar.gz",
+    "bytes": 259518,
+    "sha256": "8e1f9efc6b2e0f6546f0fe121ac0ddf4fc2f0908ae5a6bd1f185be7c9e0bcbb3"
+  }
+]

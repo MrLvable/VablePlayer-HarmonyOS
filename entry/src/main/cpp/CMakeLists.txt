@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(nasplayer_native LANGUAGES C CXX)
+add_subdirectory(aisubtitle)
+add_subdirectory(smb)
+add_subdirectory(localfiles)

@@ -1,0 +1,33 @@
+{
+  "package": "@mpv-ohos/mpv-arkts",
+  "version": "1.0.0",
+  "registry": "https://ohpm.openharmony.cn/ohpm/@mpv-ohos%2Fmpv-arkts",
+  "tarball": "https://ohpm.openharmony.cn/ohpm/@mpv-ohos/mpv-arkts/-/mpv-arkts-1.0.0.har",
+  "har_bytes": 16801367,
+  "har_sha256": "facaf095b77045d91cc0787f0544b4681b1c5fe6c7c635823c56f9eb16d6dbff",
+  "har_sha512_integrity": "sha512-hNL2irZmNMB1OeSpfVCdqE1wbpTUtQ7jcC/ALcvXJtYAAyyDKVNlt7N25mPwvK98wSti5KzO4CVEaU7hKgemQg==",
+  "libmpv_so_sha256": "672e98d497199a89e20893979ecec686dee1113bbe1b609c9a9266aa1679bd32",
+  "native_build_repo": "https://github.com/mpv-ohos/libmpv-ohos-build",
+  "native_build_tag": "20260715",
+  "native_build_commit": "1bab837e662ffa47ce51efd0720d3ed7c4988944",
+  "native_release_zip_sha256": "ac8b176dc4c86f4772d62ff530762ec187c3c46383bf2d476870d17dad806e5b",
+  "mpv_source_repo": "https://github.com/ErBWs/mpv",
+  "mpv_source_ref": "feat-ohos-0.41.0",
+  "mpv_source_commit": "6edeee00a07b9b76f197aa71eee3d029fb090de4",
+  "mpv_binary_version_evidence": "mpv v0.41.0-dev-g6edeee00a",
+  "ffmpeg_source_repo": "https://code.ffmpeg.org/FFmpeg/FFmpeg.git",
+  "ffmpeg_source_ref": "n8.0",
+  "ffmpeg_source_commit_github_mirror": "140fd653aed8cad774f991ba083e2d01e86420c7",
+  "ffmpeg_binary_version_evidence": "FFmpeg version n8.0; libavcodec license: LGPL version 3 or later",
+  "release_zip_downloaded_for_comparison": false,
+  "wrapper_source_inspection_snapshot": "b709a5950181376a9947860e637b38270d3cc913",
+  "wrapper_exact_package_source_commit_embedded": false,
+  "protocol_binary_defined_symbols": [
+    "ff_http_protocol",
+    "ff_https_protocol",
+    "ff_matroska_demuxer",
+    "ff_aac_decoder",
+    "ass_library_init"
+  ],
+  "bytecode_header_path_disassembled": true
+}

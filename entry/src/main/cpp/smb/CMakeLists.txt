@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.16)
+set(SMB_VENDOR "${CMAKE_CURRENT_LIST_DIR}/../../../../../vendor/libsmb2-6.2")
+if(NOT OHOS_ARCH STREQUAL "arm64-v8a")
+  message(FATAL_ERROR "This pinned SMB dependency has been audited only for arm64-v8a")
+endif()
+add_library(nas_smb2_import SHARED IMPORTED)
+set_target_properties(nas_smb2_import PROPERTIES IMPORTED_LOCATION "${SMB_VENDOR}/arm64-v8a/libsmb2.so")
+add_library(nas_smb SHARED smb_native.cpp)
+target_include_directories(nas_smb PRIVATE "${SMB_VENDOR}/include")
+target_compile_features(nas_smb PRIVATE cxx_std_17)
+target_compile_options(nas_smb PRIVATE -Wall -Wextra -Werror=return-type)
+target_link_libraries(nas_smb PRIVATE nas_smb2_import ace_napi.z)
+# Keep the imported runtime next to the generated module for the native packager.
+add_custom_command(TARGET nas_smb POST_BUILD COMMAND ${CMAKE_COMMAND} -E copy_if_different
+  "${SMB_VENDOR}/arm64-v8a/libsmb2.so" "$<TARGET_FILE_DIR:nas_smb>/libsmb2.so")

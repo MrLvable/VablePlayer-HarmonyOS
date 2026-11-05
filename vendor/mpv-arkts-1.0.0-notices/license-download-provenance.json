@@ -1,0 +1,66 @@
+{
+  "GPL-3.0.txt": {
+    "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/COPYING.GPLv3",
+    "bytes": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  "ffmpeg-n8.0-LGPL-2.1.txt": {
+    "url": "https://raw.githubusercontent.com/FFmpeg/FFmpeg/n8.0/COPYING.LGPLv2.1",
+    "bytes": 26517,
+    "sha256": "246041b6ecf9bc32d718a62c57877c78b5eb397b6467e74ed7ae2626ab189c30"
+  },
+  "mbedtls-3.6.4-Apache-2.0.txt": {
+    "url": "https://raw.githubusercontent.com/Mbed-TLS/mbedtls/mbedtls-3.6.4/LICENSE",
+    "bytes": 29852,
+    "sha256": "9b405ef4c89342f5eae1dd828882f931747f71001cfba7d114801039b52ad09b"
+  },
+  "dav1d-1.5.1-BSD.txt": {
+    "url": "https://code.videolan.org/videolan/dav1d/-/raw/1.5.1/COPYING",
+    "bytes": 1317,
+    "sha256": "b327887de263238deaa80c34cdd2ff3e0ba1d35db585ce14a37ce3e74ee389e9"
+  },
+  "fribidi-1.0.16-COPYING.txt": {
+    "url": "https://raw.githubusercontent.com/fribidi/fribidi/v1.0.16/COPYING",
+    "bytes": 26440,
+    "sha256": "32434afcc8666ba060e111d715bfdb6c2d5dd8a35fa4d3ab8ad67d8f850d2f2b"
+  },
+  "harfbuzz-11.4.5-COPYING.txt": {
+    "url": "https://raw.githubusercontent.com/harfbuzz/harfbuzz/11.4.5/COPYING",
+    "bytes": 1971,
+    "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+  },
+  "lcms-2.17-LICENSE.txt": {
+    "url": "https://raw.githubusercontent.com/mm2/Little-CMS/lcms2.17/LICENSE",
+    "bytes": 1080,
+    "sha256": "6dbd60437f8ef91d8de1f08ad75882547fd4931bfcc3566a0735f28db1484d31"
+  },
+  "dovi-2.3.1-LICENSE.txt": {
+    "url": "https://raw.githubusercontent.com/quietvoid/dovi_tool/2.3.1/LICENSE",
+    "bytes": 1066,
+    "sha256": "f35d4515dd8d81c7996af2b20e9605561d1af0c21bc12ba7cc4fa4c60aed2178"
+  },
+  "shaderc-2025.4-LICENSE.txt": {
+    "url": "https://raw.githubusercontent.com/google/shaderc/v2025.4/LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "libplacebo-7.360.1-COPYING.txt": {
+    "url": "https://code.videolan.org/videolan/libplacebo/-/raw/v7.360.1/COPYING",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "freetype-2.13.3-FTL.txt": {
+    "url": "https://raw.githubusercontent.com/freetype/freetype/VER-2-13-3/docs/FTL.TXT",
+    "bytes": 6743,
+    "sha256": "08c135755dd589039470f1fdbb400daaabaaa50d0b366d19cebff4d22986baa1"
+  },
+  "libxml2-2.15.1-COPYING.txt": {
+    "url": "https://raw.githubusercontent.com/GNOME/libxml2/v2.15.1/Copyright",
+    "bytes": 1314,
+    "sha256": "5d4873884a890122a4b9b20ad56ac6f7da1d796a5bfcf04a427970ac96217626"
+  },
+  "fontconfig-2.17.1-COPYING.txt": {
+    "url": "https://gitlab.freedesktop.org/fontconfig/fontconfig/-/raw/2.17.1/COPYING",
+    "bytes": 8616,
+    "sha256": "51a51aa9823704fd90bccc616cdd17ebabb5b2b3e9cbde886ca02c7002288067"
+  }
+}

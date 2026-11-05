@@ -1,0 +1,6 @@
+{
+  "name": "libai_audio_extractor.so",
+  "version": "1.0.0",
+  "description": "Bounded independent FFmpeg audio-window NAPI bridge",
+  "types": "./index.d.ts"
+}
